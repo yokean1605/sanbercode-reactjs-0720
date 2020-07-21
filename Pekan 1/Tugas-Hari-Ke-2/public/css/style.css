@@ -1,0 +1,102 @@
+body {
+    background-image: url(../css/pattern.jpg);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    clear: both;
+}
+.container {
+    max-width: 1140px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-height: 100%;
+    clear: both;
+}
+.mt-50 {
+    margin-top: 58px;
+}
+.border-container {
+    border: 2px solid #e8e8e8;
+    padding: 10px;
+    min-height: 100%;
+}
+a {
+    text-decoration: none;
+}
+header {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    height: 50px;
+    box-shadow: 0 1px 3px #ddd;
+}
+footer {
+    background-color: black;
+    padding: 20px 0;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+footer > h5 {
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+ul {
+    list-style: none;
+}
+ol > li, ul > li {
+    margin-bottom: 5px;
+    padding-left: 0px;
+}
+
+nav > ul > li {
+    float: left;
+}
+nav > ul > li > a {
+    padding-right: 30px;
+    text-decoration: none;
+    font-weight: 600;
+}
+table {
+    margin-bottom: 15px;
+    padding-left: 40px;
+}
+tr > td:nth-child(1) {
+    font-weight: 600;
+}
+tr > td:nth-child(2) {
+    width: 450px;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+}
+tr > td {
+    width: 160px;
+    padding-bottom: 14px;
+}
+.vab {
+    vertical-align: bottom;
+}
+header > img {
+    float: left;
+}
+header > nav {
+    float: right;
+}
+#article-list > .item-article {
+    margin-bottom: 30px;
+    border-bottom: 2px solid #e8e8e8;
+}
+.title-section {
+    margin-bottom: 20px;
+    text-align: center;
+}
