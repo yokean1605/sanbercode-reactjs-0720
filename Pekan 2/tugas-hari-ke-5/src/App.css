@@ -1,0 +1,39 @@
+.Apps {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #282c34;
+}
+
+.app-content {
+  border: 1px solid #282c34;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+tr td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 180px;
+}
+
+tr > td:nth-child(1) {
+  vertical-align: bottom;
+}
+
+.b {
+  font-weight: 700;
+}
+
+.app-content > h1 {
+  text-align: center;
+  margin-top: 0px;
+}
+
+input[type="submit"] {
+  border-radius: 10px;
+  padding: 5px;
+}
